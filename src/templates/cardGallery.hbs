@@ -15,9 +15,8 @@
   </div>
   <div class="slider" style="left: 0">
     {{!-- new version --}}
-
+    {{#each this}}
     <div class="slide">
-
       <li class="card-list-item ">
         <div class="item-card">
           <img class="slide-img img-cont" src="{{imageUrls}}" alt='cat'>
@@ -30,17 +29,8 @@
           </div>
         </div>
       </li>
-
     </div>
-    {{!-- old verion --}}
-    {{!-- <div class="slide"><img src="https://cdn.pixabay.com/photo/2020/12/06/17/58/trees-5809559__340.jpg" alt="">
-    </div>
-    <div class="slide"><img src="https://cdn.pixabay.com/photo/2017/06/19/21/12/concrete-2420845__340.jpg" alt=""></div>
-    <div class="slide"><img src="https://cdn.pixabay.com/photo/2020/09/10/04/43/expedition-5559244__340.jpg" alt="">
-    </div>
-    <div class="slide"><img src="https://cdn.pixabay.com/photo/2020/07/04/19/27/bird-5370732__340.jpg" alt=""></div>
-    <div class="slide"><img src="https://cdn.pixabay.com/photo/2020/11/22/07/11/river-5765785__340.jpg" alt="">
-    </div> --}}
+    {{/each}}
   </div>
 </div>
 <div id="viewSlider">
